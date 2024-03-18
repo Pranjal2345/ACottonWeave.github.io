@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gilroy';
+    
 }
 html,body{
     height: 100%;
     width: 100%;
+    
+    background-color: #ededed;
 }
 #main{
     height: 100%;
@@ -14,9 +17,10 @@ html,body{
     display: flex;
     align-items: flex-end;
     /* justify-content: space-between; */
-    padding: 0px 100px;
-    padding-top: 130px ;
-    gap: 52px;
+    padding: 0px 6.527vw;
+    padding-top: 8.486vw ;
+    /* gap: 3.394vw; */
+   
 
 }
 #left{
@@ -26,14 +30,15 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 94px;
-    padding-bottom: 50px;
+    gap: 6.136vw;
+    padding-bottom: 3.264vw;
     /* margin-right: 23px; */
 }
 
 #left h1{
     font-family: 'Work Sans';
-font-size: 103px;
+/* font-size: 103px; */
+font-size: 6.723vw;
 font-weight: 400;
 line-height: 7vw;
 
@@ -47,44 +52,44 @@ line-height: 7vw;
  #color{ 
     /* background-color: blue; */
     width: fit-content;
-    padding: 1px 8px;
+    padding: 0.065vw 0.522vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
-    border: 1.3px solid black;
+    border-radius: 3.264vw;
+    border: 0.085vw solid black;
 
 }
 #color h5 {
-font-size: 16px;
-margin-right: 10px;
+font-size: 1.044vw;
+margin-right:0.653vw ;
 font-weight: 600;
 color: rgb(46, 45, 45);
 }
 #color1{
-    height: 20px;
-    width: 20px;
+    height:1.305vw ;
+    width: 1.305vw;
     background-color:burlywood;
     border-radius: 50%;
-    margin: 5px;
+    margin: 0.326vw;
 }
 #color2{
-    height: 20px;
-    width: 20px;
+    height: 1.305vw;
+    width: 1.305vw;
     background-color: brown;
     border-radius: 50%;
 }
 #left h2{
-    margin-top: 40px;
-    font-size: 30px;
-    margin-bottom: 11px;
+    margin-top:2.611vw ;
+    font-size: 1.958vw;
+    margin-bottom:0.718vw ;
 }
 #left p{
-    font-size: 18px;
+    font-size: 1.175vw;
     width: 70%;
     font-weight: 600;
     color: #444;
-    line-height:23px ;
+    line-height: 1.501vw;
 }
 #right{
     height: 90%;
@@ -93,16 +98,16 @@ color: rgb(46, 45, 45);
     position: relative;
 }
 #right-top{
-    height: 61px;
+    height:3.982vw ;
     width: 100%;
     /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 20px;
+    padding-right: 1.305vw;
 }
 #right-top h4{
-    font-size: 18px;
+    font-size:1.175vw;
     font-family: 'work sans';
     font-weight: 500;
 }
@@ -117,8 +122,8 @@ color: rgb(46, 45, 45);
 }
 #black-gola{
     position: absolute;
-      height: 148px;
-      width: 148px;
+      height:13.661vw;
+      width:13.661vw;
       /* background-color: rgb(33, 33, 34) ; */
       background-color: #262525;
       color: #fff;
@@ -130,18 +135,177 @@ color: rgb(46, 45, 45);
       justify-content: center;
 }
 #black-gola h5{
-    font-size: 21px;
+    font-size: 1.371vw;
     font-weight: 550;
     color: rgb(176, 171, 171);
+    background-color: none;
 }
 #rotated{
     position: absolute;
     left: -9.2%;
-    bottom: -40px;
+    bottom:-2.611vw ;
     rotate: -90deg;
     transform-origin: 0 0;
-    font-size: 22px;
+    font-size:1.436vw;
     font-weight: 600;
     color: #3c3b3b;
-
+}
+@media(max-width: 900px){
+    #main{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+         padding: 20px;
+        padding-top: 43px ;
+        gap: 60px;
+       /* background-color: red; */
+       padding-bottom: 0px;
+       padding-left: 30px;
+    
+    }
+    #left{
+        height: fit-content;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 8.136vw;
+        padding-bottom: 2.264vw;
+        /* margin-right: 23px; */
+    }
+    
+    #left h1{
+        font-family: 'Work Sans';
+    /* font-size: 103px; */
+    font-size: 16.723vw;
+    font-weight: 400;
+    line-height: 13.8vw;
+       
+    }
+    #bottom-left{
+        /* height: 42%; */
+        width: 100%;
+        /* background-color: yellow; */
+    }
+    
+     #color{ 
+        /* background-color: blue; */
+        width: fit-content;
+        padding: 0.170vw 1.520vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3.264vw;
+        border: 0.085vw solid black;
+     
+    }
+    #color h5 {
+    font-size: 3.644vw;
+    margin-right:0.647vw ;
+    font-weight: 600;
+    color: rgb(46, 45, 45);
+    }
+    #color1{
+        height:2.605vw ;
+        width: 2.605vw;
+        background-color:burlywood;
+        border-radius: 50%;
+        margin: 0.326vw;
+    }
+    #color2{
+        height: 2.605vw;
+        width: 2.605vw;
+        background-color: brown;
+        border-radius: 50%;
+    }
+    #left h2{
+        margin-top:4.811vw ;
+        font-size:4.644vw;
+        margin-bottom:0.818vw ;
+    }
+    #left p{
+        font-size: 3.375vw;
+        width: 70%;
+        font-weight: 600;
+        color: #444;
+        line-height: 3.601vw;
+    }
+  
+    #right{
+        height: 55%;
+        width: 100%;
+        /* background-color:lightblue; */
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #right-top{
+        height:4.982vw ;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 1.305vw;
+        padding :20px 0px;
+    }
+    #right-top h4{
+        font-size:5.736vw;;
+        font-family: 'work sans';
+        font-weight: 500;
+        color: #3c3b3b;
+    }
+    #right-top h5{
+        font-size:4.975vw;
+        /* font-family: 'work sans'; */
+        font-weight: 600;
+        color: #3c3b3b;
+    }
+    #right-top h5 i{
+        color: gold;
+    }
+    #right img{
+        width: 100%;
+        height: 97%;
+        object-fit: cover;
+        border-radius: 20px;
+         
+    }
+    #black-gola{
+        position: absolute;
+          height:25.361vw;
+          width:25.361vw;
+          /* background-color: rgb(33, 33, 34) ; */
+          background-color: #262525;
+          color: #fff;
+          border-radius: 50%;
+          right: -13%;
+          top: 9.5%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+    }
+    #black-gola h5{
+        font-size: 4.071vw;
+        font-weight: 550;
+        color: rgb(176, 171, 171);
+        background-color: none;
+    }
+    #rotated{
+        position: absolute;
+        left: -9.2%;
+        bottom:30px ;
+        rotate: -90deg;
+        transform-origin: 0 0;
+        font-size:5.736vw;
+        font-weight: 600;
+        color: #3c3b3b;
+        padding-left: 5vw;
+        /* background-color: lightblue; */
+    }
+    
 }
